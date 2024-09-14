@@ -1,4 +1,4 @@
-# thammenha
+# Thammenha | ثمنها
 Tuwaiq Data Science &amp; Machine Learning Capstone
 
 # Project Summary
@@ -12,7 +12,7 @@ The current situation in the Saudi Used Car Market is in dire need of tools and 
  - Salman Gassem
  - Ziyad Aljaser
 
-## UI
+## User Interface
 For our website, we have the code in another repository, please follow this link: https://github.com/Ziyad-Aljaser/thammenha
 
  - Built using React and Flutter, the repo contains the backend and the frontend code.
@@ -20,7 +20,11 @@ For our website, we have the code in another repository, please follow this link
 # Part 1 of the project
 
 ### Problem Statement
+
+Note: Please watch the short video included in the repo.
+
 Websites issues:
+
  1. Unregulated pricing.
  2. Personal opinions.
  3. Unreliable.
@@ -108,7 +112,7 @@ Due to the low volume of the Saudi data, we opted to also showcase the potential
 
 This is the source of the dataset: https://www.kaggle.com/datasets/andreinovikov/used-cars-dataset
 
-### Preprocessing the data
+### Cleaning the data
 
 Due to the sheer size of the dataset, we decided to first drop all nulls and duplicates as a first step, and see how the model performs, which left us with approximately more than 220k rows, which proved to be more than enough to achieve a high R2 Score.
 
@@ -118,4 +122,4 @@ The model is a Rendom Forest model that achieved an R2 Score of 93% on the test 
 
 ### Conclusion
 
-The USA Model was abale to achieve such an impressive R2 Score due to the fact that it had more features, better data correlations, and higher number of rows. This proves the potential of applying this approach to the Saudi market once better, and higher quality data is collected.
+The USA Model was able to achieve such an impressive R2 Score due to the fact that it had more features, better data correlations, and higher number of rows. This proves the potential of applying this approach to the Saudi market once better, and higher quality data is collected.
